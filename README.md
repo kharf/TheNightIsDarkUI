@@ -1,8 +1,8 @@
 TheNightIsDarkUI for World of Warcraft Classic.
 Initially a fork of modui_classic
 ======
-![UI](https://imgur.com/CALRLz1)
-![UI:options](https://imgur.com/dlrQAEq)
+![UI](https://i.imgur.com/CALRLz1.jpg)
+![UI:options](https://i.imgur.com/dlrQAEq.jpg)
 ======
 
 #### Elements ####
