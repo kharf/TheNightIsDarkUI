@@ -6,9 +6,6 @@ modui for Classic WoW
 ![UI:options](https://i.imgur.com/e3VtOsZ.png)
 ======
 
-#### Stable Versions ####
-https://www.wowinterface.com/downloads/info25114-modui.html
-
 #### Elements ####
 - Actionbar: BfA-style small mainbar with compact menus & bags.
 - Bag: one-bag inventory and bank.
@@ -34,7 +31,7 @@ A: try reloading the UI (type: _/rl_) and then deleting your cache before making
 
 Q: The UI won't load in my game!
 
-A: Make sure you're putting the directory in _WoW/Classic/Interface/AddOns/_, then rename the folder from *modui_classic-master* to *modui_classic*.
+A: Make sure you're putting the directory in _WoW/Classic/Interface/AddOns/_, then rename the folder from *TheNightIsDarkUI-master* to *TheNightIsDarkUI*.
 
 
 

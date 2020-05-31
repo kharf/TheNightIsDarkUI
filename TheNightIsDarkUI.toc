@@ -1,8 +1,8 @@
 ## Interface: 11302
-## Title: mod ui
-## Author: modernist
+## Title: TheNightIsDarkUI
+## Author: Kharf
 ##SavedVariablesPerCharacter: MODUI_VAR
-## Notes: a ui
+## Notes: fork of modui
 
 #   ~load variables table prior to anything else
 core/var.lua

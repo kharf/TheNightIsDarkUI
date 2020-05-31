@@ -42,7 +42,7 @@
             PlayerFrame.bg = PlayerFrame:CreateTexture()
             PlayerFrame.bg:SetPoint('TOPLEFT', PlayerFrameBackground)
             PlayerFrame.bg:SetPoint('BOTTOMRIGHT', PlayerFrameBackground, 0, 22)
-            PlayerFrame.bg:SetTexture[[Interface/AddOns/modui_classic/art/statusbar/namebg.tga]]
+            PlayerFrame.bg:SetTexture[[Interface/AddOns/TheNightIsDarkUI/art/statusbar/namebg.tga]]
             PlayerFrame.bg:SetVertexColor(colour.r, colour.g, colour.b)
         end
 
@@ -130,16 +130,16 @@
 
         TargetFrameHealthBar:HookScript('OnValueChanged', UpdateTargetValue)
 
-        TargetFrameNameBackground:SetTexture[[Interface/AddOns/modui_classic/art/statusbar/namebg.tga]]
+        TargetFrameNameBackground:SetTexture[[Interface/AddOns/TheNightIsDarkUI/art/statusbar/namebg.tga]]
 
         TargetFrame.Elite = TargetFrameTextureFrame:CreateTexture(nil, 'BORDER')
-        TargetFrame.Elite:SetTexture[[Interface\AddOns\modui_classic\art\unitframe\UI-TargetingFrame-Elite]]
+        TargetFrame.Elite:SetTexture[[Interface\AddOns\TheNightIsDarkUI\art\unitframe\UI-TargetingFrame-Elite]]
         TargetFrame.Elite:SetSize(128, 128)
         TargetFrame.Elite:SetPoint('TOPRIGHT', TargetFrame)
         TargetFrame.Elite:Hide()
 
         TargetFrame.Rare = TargetFrameTextureFrame:CreateTexture(nil, 'BORDER')
-        TargetFrame.Rare:SetTexture[[Interface\AddOns\modui_classic\art\unitframe\UI-TargetingFrame-Rare-Elite]]
+        TargetFrame.Rare:SetTexture[[Interface\AddOns\TheNightIsDarkUI\art\unitframe\UI-TargetingFrame-Rare-Elite]]
         TargetFrame.Rare:SetSize(128, 128)
         TargetFrame.Rare:SetPoint('TOPRIGHT', TargetFrame)
         TargetFrame.Rare:Hide()

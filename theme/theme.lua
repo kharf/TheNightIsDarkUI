@@ -96,7 +96,7 @@
     end
 
     ItemTextFrame.Material = ItemTextFrame:CreateTexture(nil, 'OVERLAY', nil, 7)
-    ItemTextFrame.Material:SetTexture[[Interface\AddOns\modui_classic\art\quest\QuestBG.tga]]
+    ItemTextFrame.Material:SetTexture[[Interface\AddOns\TheNightIsDarkUI\art\quest\QuestBG.tga]]
     ItemTextFrame.Material:SetSize(506, 506)
     ItemTextFrame.Material:SetPoint('TOPLEFT', ItemTextFrame, 24, -82)
     ItemTextFrame.Material:SetVertexColor(.9, .9, .9)
@@ -204,7 +204,7 @@
     end
 
     QuestLogFrame.Material = QuestLogFrame:CreateTexture(nil, 'OVERLAY', nil, 7)
-    QuestLogFrame.Material:SetTexture[[Interface\AddOns\modui_classic\art\quest\QuestBG.tga]]
+    QuestLogFrame.Material:SetTexture[[Interface\AddOns\TheNightIsDarkUI\art\quest\QuestBG.tga]]
     QuestLogFrame.Material:SetSize(510, 398)
     QuestLogFrame.Material:SetPoint('TOPLEFT', QuestLogDetailScrollFrame)
     QuestLogFrame.Material:SetVertexColor(.9, .9, .9)
@@ -347,7 +347,7 @@
         end
 
         v.Material = v:CreateTexture(nil, 'OVERLAY', nil, 7)
-        v.Material:SetTexture[[Interface\AddOns\modui_classic\art\quest\QuestBG.tga]]
+        v.Material:SetTexture[[Interface\AddOns\TheNightIsDarkUI\art\quest\QuestBG.tga]]
         v.Material:SetSize(506, 506)
         v.Material:SetPoint('TOPLEFT', v, 24, -82)
         v.Material:SetVertexColor(.9, .9, .9)

@@ -22,7 +22,7 @@
 
         bar.border.t = bar.border:CreateTexture(nil, 'BACKGROUND')
         bar.border.t:SetAllPoints(bar.border)
-        bar.border.t:SetTexture[[Interface\AddOns\modui_classic\art\unitframe\border]]
+        bar.border.t:SetTexture[[Interface\AddOns\TheNightIsDarkUI\art\unitframe\border]]
         tinsert(ns.skin, bar.border.t)
 
         bar.background = CreateFrame('Frame', nil, PlayerFrame)
@@ -31,7 +31,7 @@
 
         bar.background.t = bar.background:CreateTexture(nil, 'BACKGROUND')
         bar.background.t:SetAllPoints(bar.background)
-        bar.background.t:SetTexture[[Interface\AddOns\modui_classic\art\unitframe\background]]
+        bar.background.t:SetTexture[[Interface\AddOns\TheNightIsDarkUI\art\unitframe\background]]
         tinsert(ns.skin, bar.background.t)
     end
 

@@ -48,7 +48,7 @@
         plate.name:SetPoint('BOTTOMRIGHT', plate, 'TOPRIGHT', -6, -13)
         plate.name:SetJustifyH'RIGHT'
 
-        -- plate.healthBar:SetStatusBarTexture[[Interface/AddOns/modui_classic/art/statusbar/namebg.tga]]
+        -- plate.healthBar:SetStatusBarTexture[[Interface/AddOns/TheNightIsDarkUI/art/statusbar/namebg.tga]]
 
         plate.healthBar.LeftText = plate.healthBar:CreateFontString(nil, 'OVERLAY', 'TextStatusBarText')
         plate.healthBar.LeftText:SetPoint('LEFT', plate.healthBar, 2, 1)
