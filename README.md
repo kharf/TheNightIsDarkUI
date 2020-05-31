@@ -19,7 +19,7 @@
 
 
 #### Options ####
-Click the M above the backpack button (bottom-right of the main actionbar) to open theme and display options. modui is designed to be modular and the different elements of the UI can be turned on and off.
+Click the TNid above the backpack button (bottom-right of the main actionbar) to open theme and display options. modui is designed to be modular and the different elements of the UI can be turned on and off.
 
 #### FAQ ####
 Q: Why aren't my target and nameplate casting timers correct?
