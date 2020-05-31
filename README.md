@@ -1,9 +1,9 @@
-TheNightIsDarkUI for World of Warcraft Classic.
-Initially a fork of modui_classic
-======
+# TheNightIsDarkUI for World of Warcraft Classic. 
+
+## Initially a fork of modui_classic 
+
 ![UI](https://i.imgur.com/CALRLz1.jpg)
 ![UI:options](https://i.imgur.com/dlrQAEq.jpg)
-======
 
 #### Elements ####
 - Actionbar: BfA-style small mainbar with compact menus & bags.
