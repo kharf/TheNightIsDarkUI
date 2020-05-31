@@ -1,4 +1,4 @@
-# TheNightIsDarkUI for World of Warcraft Classic. 
+# TheNightIsDarkUI for World of Warcraft Classic
 
 ## Initially a fork of modui_classic 
 
