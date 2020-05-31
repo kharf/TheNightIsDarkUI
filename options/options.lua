@@ -72,7 +72,7 @@
 
     menu.header.t = menu:CreateFontString(nil, 'ARTWORK', 'GameFontNormal')
     menu.header.t:SetPoint('TOP', menu.header, 0, -14)
-    menu.header.t:SetText'modui Elements'
+    menu.header.t:SetText'TheNightIsDarkUI'
 
     menu.header.f = CreateFrame('Button', 'modui_optionsheader', menu)
     menu.header.f:SetAllPoints(menu.header.t)
@@ -183,7 +183,7 @@
     menu.masterswitch.t:SetJustifyH'LEFT'
     menu.masterswitch.t:SetWidth(330)
     menu.masterswitch.t:SetPoint('LEFT', menu.masterswitch, 'RIGHT', 4, 0)
-    menu.masterswitch.t:SetText('Toggle All |c'..colour.colorStr..'modui|r Elements.    |cffff0000Note: Overrides Selections.|r')
+    menu.masterswitch.t:SetText('Toggle All |c'..colour.colorStr..'TheNightIsDarkUI|r Elements.    |cffff0000Note: Overrides Selections.|r')
 
     local ToggleChildButton = function(self, table)
         if  self:GetChecked() then

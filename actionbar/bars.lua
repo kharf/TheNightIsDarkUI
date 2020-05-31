@@ -98,7 +98,10 @@ end
 
 local HideReputationBarTexture = function()
     for i = 0, 3 do
+        -- for level 60
         ReputationWatchBar.StatusBar["XPBarTexture" .. i]:Hide()
+        -- when not 60 yet
+        ReputationWatchBar.StatusBar["WatchBarTexture" .. i]:Hide()
     end
 end
 
@@ -132,11 +135,16 @@ local UpdateExhaustion = function()
     end
 end
 
-local HideMaxXP = function()
+local HideXPBarTexture = function()
     for i = 0, 3 do
         local t = _G["MainMenuMaxLevelBar" .. i]
         t:SetTexture ""
         t:Hide()
+        _G["MainMenuXPBarTexture" .. i]:Hide()
+        if MODUI_VAR["elements"]["mainbar"].enable then
+            _G["MainMenuBarTexture" .. i]:Hide()
+        end
+
     end
 end
 
@@ -146,7 +154,7 @@ local UpdateXP = function()
     local rest = GetRestState()
     UpdateExhaustion()
     if _G["modui_mainbar"] then
-        HideMaxXP()
+        HideXPBarTexture()
         MainMenuExpBar.spark:SetPoint("CENTER", MainMenuExpBar, "LEFT", x, 2)
         if rest == 1 then
             MainMenuExpBar.spark:SetVertexColor(0 * 1.5, .39 * 1.5, .88 * 1.5, 1)
@@ -233,12 +241,7 @@ local UpdateBars = function()
 end
 
 local AddXP = function()
-    for i = 0, 3 do
-        _G["MainMenuXPBarTexture" .. i]:Hide()
-        if MODUI_VAR["elements"]["mainbar"].enable then
-            _G["MainMenuBarTexture" .. i]:Hide()
-        end
-    end
+    HideXPBarTexture()
 
     ReputationWatchBar:SetSize(1024, 6)
     ReputationWatchBar.StatusBar:SetSize(1024, 6)

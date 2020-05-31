@@ -1,9 +1,8 @@
-modui for Classic WoW
+TheNightIsDarkUI for World of Warcraft Classic.
+Initially a fork of modui_classic
 ======
-![UI](https://i.imgur.com/WNCe8em.png)
-![UI:cast](https://i.imgur.com/34BJX0D.png)
-![UI:inventory](https://i.imgur.com/YPoAaqG.jpg)
-![UI:options](https://i.imgur.com/e3VtOsZ.png)
+![UI](https://imgur.com/CALRLz1)
+![UI:options](https://imgur.com/dlrQAEq)
 ======
 
 #### Elements ####
@@ -23,27 +22,9 @@ modui for Classic WoW
 Click the M above the backpack button (bottom-right of the main actionbar) to open theme and display options. modui is designed to be modular and the different elements of the UI can be turned on and off.
 
 #### FAQ ####
-Q: I'm getting an error that says something about MODUI_VAR.
-
-A: try reloading the UI (type: _/rl_) and then deleting your cache before making an issue, particularly if you've recently used an older version of modui.
-
-
-
-Q: The UI won't load in my game!
-
-A: Make sure you're putting the directory in _WoW/Classic/Interface/AddOns/_, then rename the folder from *TheNightIsDarkUI-master* to *TheNightIsDarkUI*.
-
-
-
 Q: Why aren't my target and nameplate casting timers correct?
 
 A: Blizzard recently disabled accurate timer checking in their classic API in the run up to release, so now its no longer possible to check which spell rank is being used - so modui has to assume its the highest rank with the longest spell cast time for now.
-
-
-
-Q: I don't want a black UI, how do I change it back to normal?
-
-A: Open the theme option by hitting the *M* above the bag button or typing _/modui_, then choose *UI Colour*. Hit *Reset To Default* or move the colour wheel picker to white and hit Okay.
 
 #### To-do ####
 - Combat Text

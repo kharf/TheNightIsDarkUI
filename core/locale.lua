@@ -24,7 +24,7 @@
 
 	-- MENU
 	L['Your new settings require a UI reload to take effect.'] = 'Your new settings require a UI reload to take effect.'
-	L['Toggle All modui Elements.    |cffff0000Note: Overrides Selections.|r'] = 'Toggle All modui Elements.    |cffff0000Note: Overrides Selections.|r'
+	L['Toggle All TheNightIsDarkUI Elements.    |cffff0000Note: Overrides Selections.|r'] = 'Toggle All TheNightIsDarkUI Elements.    |cffff0000Note: Overrides Selections.|r'
 	L['Actionbar'] = ''
 	L['Exp & Reputation Bar'] = ''
 	L['Horizontal Third Row (Classic Layout only)'] = ''
@@ -153,7 +153,7 @@
 
 		-- MENU
 		L['Your new settings require a UI reload to take effect.'] = '你的新設定需要重載介面才會生效。'
-		L['Toggle All modui Elements.    |cffff0000Note: Overrides Selections.|r'] = '全局切換開關。|cffff0000注意：會覆蓋掉你現有的設定。|r'
+		L['Toggle All TheNightIsDarkUI Elements.    |cffff0000Note: Overrides Selections.|r'] = '全局切換開關。|cffff0000注意：會覆蓋掉你現有的設定。|r'
 		L['Actionbar'] = '快捷列'
 		L['Exp & Reputation Bar'] = '經驗聲望條'
 		L['Horizontal Third Row (Classic Layout only)'] = '橫式的第三排快捷列，僅在經典布局生效'
@@ -206,7 +206,7 @@
 
 		-- MENU
 		L['Your new settings require a UI reload to take effect.'] = '你的新设置需要重载界面才会生效。'
-		L['Toggle All modui Elements.    |cffff0000Note: Overrides Selections.|r'] = '全局切换开关。|cffff0000注意：会复盖掉你现有的设置。|r'
+		L['Toggle All TheNightIsDarkUI Elements.    |cffff0000Note: Overrides Selections.|r'] = '全局切换开关。|cffff0000注意：会复盖掉你现有的设置。|r'
 		L['Actionbar'] = '动作条'
 		L['Exp & Reputation Bar'] = '经验声望条'
 		L['Horizontal Third Row (Classic Layout only)'] = '横式的第三排动作条，仅在经典布局生效'
